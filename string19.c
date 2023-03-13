@@ -17,7 +17,7 @@ int main()
     int cnt = 0;
    
     //Iterating a loop through the string and comparing each character with a letter 
-    for(int i = 0; str[i]; i++)  
+    for(int i = 0; i<strlen(str); i++)  
     {
     	if(str[i] == letter)
     	{
